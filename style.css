@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kavivanar", cursive;
+}
+
+body {
+    padding: 3rem 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 7%;
+    text-align: center;
+}
+
+hr {
+    border: 6px solid #343434;
+    margin: 20px 0 5rem 0;
+    border-radius: 99px;
+}
+
+.divCard {
+    background-color: black;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.divHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+}
+
+.rank, .numberCard{
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    border: 9px dashed black;
+    padding: 5px;
+}
+
+#imgCard {
+    width: 100%;
+    background-color: #d9d9d9;
+    padding: 9px;
+    margin: 8px 0;
+}
+
+.divLinear {
+    background: radial-gradient(50% 138.22% at 50% 50%, #000000 0%, #0084A8 20%, #0015FF 40%, #000000 60%, #0084A8 80%, #0015FF 100%);
+    padding: 9px;
+
+}
+
+.divDescription {
+    border: 10px solid black;
+    border-radius: 12px;
+    background-color: #d9d9d9;
+    padding: 5px 5px 2rem 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#descrition1, #descrition2 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
